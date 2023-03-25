@@ -5,7 +5,6 @@ def on_forever():
     basic.show_icon(IconNames.HAPPY)
     basic.pause(500)
 
-
 # Start of the main program (Show a happy face, then start the forever loop)
 basic.show_icon(IconNames.HAPPY)
 basic.forever(on_forever)
